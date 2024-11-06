@@ -24,7 +24,7 @@ public class NQueens
 
     }
 
-    static bolean isSafe(int[][] board, int row, int col, int n)
+    static boolean isSafe(int[][] board, int row, int col, int n)
     {
         for(int i=0; i<row; i++)
         {
